@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "names",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Maps.sol": "MyMap"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Maps.sol": {
+			"keccak256": "0x18f907de982a424b447ef8c187a7b7c74b3f00327a0dcc36b1178ac5aae33519",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2533e7964a3cc28f42b722f7bf669dfcb2e0ea690a411d31bb1a588d909d3946",
+				"dweb:/ipfs/QmUhod6Zhws1A1dzEQtgTm13cAnnTBEnxrQVxsMAYx9r3u"
+			]
+		}
+	},
+	"version": 1
+}
