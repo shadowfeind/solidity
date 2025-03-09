@@ -7,4 +7,4 @@ contract Counter {
     function addOne() public {
         count++;
     }
-}
+} 
