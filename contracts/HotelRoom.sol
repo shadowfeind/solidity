@@ -24,11 +24,11 @@ contract HotelRoom {
         _;
     }
 
-function book() payable onlyWhileVacant cost(2 ether) {
-    currentStatus = Status.Occupied;
-    (bool sent, bytes memory data) = owner.call{value: msg.value}("");
-    require(true);
+    function book() public payable onlyWhileVacant cost(2 ether) {
+        currentStatus = Status.Occupied;
+        (bool sent, bytes memory data) = owner.call{value: msg.value}("");
+        require(true);
 
-    emit Occupy(msg.sender, msg.value);
-}
+        emit Occupy(msg.sender, msg.value);
+    }
 }
